@@ -1,0 +1,2 @@
+pip install -r requirements.txt 
+python main_evaluate.py --device cuda --model TTT_Time_Ensemble_Multiscale_Decoder_Only_1 --category_type_map_state True --category_map_state True --keys 'reverse_time' 'age' --metric_name 'classification_report' --batch_size 64 --top_k 15
