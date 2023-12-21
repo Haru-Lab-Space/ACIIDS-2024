@@ -66,7 +66,7 @@ An example of the explanatory capability of the proposed model. It provides us w
 |**Overall Attention**  | 0.0857  | 0.1971  |0.1262  | 0.2433  | 0.2577  |         |
 |**Global Attention**   | 0.0107  | 0.0158  | 0.0161 | 0.0165  | 0.0237  |         |
 |**Local Attention**    | 0.0862  | 0.1983  | 0.1269 | 0.2447  | 0.2592  |         |
-|**CCSR Category Cod**e | EXT     | GEN     | SKN    | EXT     | CIR     | MBD     |
+|**CCSR Category Code** | EXT     | GEN     | SKN    | EXT     | CIR     | MBD     |
 |                       | FAC     | MBD     | MBD    | GEN     | EXT     | SYM     |
 |                       | MBD     |         |        | MBD     | GEN     |         | 
 |                       |         |         |        | SYM     | MBD     |         |
