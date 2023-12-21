@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This paper proposes a multi-level, multi-scale attention model based on external knowledge. The model reasonably mimicked the prediction process of doctors by exploiting general to detailed correlations in the input data.git
+This paper proposes a multi-level, multi-scale attention model based on external knowledge. The model reasonably mimicked the prediction process of doctors by exploiting general to detailed correlations in the input data.
 
 
 #### Requirements
@@ -84,3 +84,6 @@ An example of the explanatory capability of the proposed model. It provides us w
 
 ### Pretrained weight of our model.
 Link: [MsTA weight](/checkpoint/model.pt)
+
+### Acknowledgement
+We extend our sincere appreciation for the MIMIC-IV dataset provided by PhysioNet, as it served as the cornerstone of our investigation and greatly enhanced the rigor and depth of our study.
