@@ -47,15 +47,15 @@ The Accuracy@15 of Diagnosis Prediction Task.
 | LSTM        |32.7248   | 28.3776  | 28.0900 | 40.7329 | 46.9140 | 41.4706|
 | Dipole      |32.4271   | 29.4675  | 28.7185 | 41.3474 | 47.9466 | 42.4984|
 | HiTANet     |32.9247   | 32.2820  | 30.6096 | 42.9891 | 48.5730 | 44.0498|
-| MsTA        |36.2908   | 32.8971  | 32.7226 | 44.6763 | 49.7170 | 45.5842|
+| MsTA        |**36.2908**   | **32.8971**  | **32.7226** | **44.6763** | **49.7170** | **45.5842**|
 
 Performance of the ablation study model in test set.
 
 | Model      	| precision macro avg	| recall macro avg	| f1-score macro avg	| precision weighted avg   	| recall weighted avg	| f1-score weighted avg	|
 |-------	|-----------	|--------	|----------	|--------------	|--------	|----------	|
 | MsTA-R      |33.4163 | 31.8170 | 30.6259 | 42.9507 | 48.8467 | 44.2205|
-| MsTA-CR     |36.3424 | 31.4322 | 31.5611 | 44.3587 | 49.1252 | 44.8056|
-| MsTA        |36.2908   | 32.8971  | 32.7226 | 44.6763 | 49.7170 | 45.5842|
+| MsTA-CR     |**36.3424** | 31.4322 | 31.5611 | 44.3587 | 49.1252 | 44.8056|
+| MsTA        |36.2908   | **32.8971**  | **32.7226** | **44.6763** | **49.7170** | **45.5842**|
 
 ### Explaination
 
@@ -63,15 +63,15 @@ An example of the explanatory capability of the proposed model. It provides us w
 
 |Visit              |1        |2        |3       |4        |5        |6        |
 |-------	          |---------|--------	|------- |---------|---------|---------|
-|Overall Attention  | 0.0857  | 0.1971  |0.1262  | 0.2433  | 0.2577  |         |
-|Global Attention   | 0.0107  | 0.0158  | 0.0161 | 0.0165  | 0.0237  |         |
-|Local Attention    | 0.0862  | 0.1983  | 0.1269 | 0.2447  | 0.2592  |         |
-|CCSR Category Code | EXT     | GEN     | SKN    | EXT     | CIR     | MBD     |
+|**Overall Attention**  | 0.0857  | 0.1971  |0.1262  | 0.2433  | 0.2577  |         |
+|**Global Attention**   | 0.0107  | 0.0158  | 0.0161 | 0.0165  | 0.0237  |         |
+|**Local Attention**    | 0.0862  | 0.1983  | 0.1269 | 0.2447  | 0.2592  |         |
+|**CCSR Category Cod**e | EXT     | GEN     | SKN    | EXT     | CIR     | MBD     |
 |                   | FAC     | MBD     | MBD    | GEN     | EXT     | SYM     |
 |                   | MBD     |         |        | MBD     | GEN     |         | 
 |                   |         |         |        | SYM     | MBD     |         |
 |                   |         |         |        |         | SYM     |         |
-|ICD-10 Code        | Y831    | N400    | F4310  | Y838    | R079    | F329    |
+|**ICD-10 Code **       | Y831    | N400    | F4310  | Y838    | R079    | F329    |
 |                   | Z23     | F329    | F17210 |N400     | Y929    | F419    |
 |                   |  Z720   | F419    |  L03116| F329    | N401    | F4310   |
 |                   | F329    | F4310   |        | F419    | F329    | F17210  |
