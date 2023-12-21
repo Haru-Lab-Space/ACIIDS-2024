@@ -81,4 +81,4 @@ An example of the explanatory capability of the proposed model. It provides us w
 |                   |         |         |        |         | G8929   |         |  
 |                   |         |         |        |         | R338    |         |  
 
-file weight: https://drive.google.com/file/d/1C02JW2dCKN_IpoGnFadRr9RXH62fyuH2/view?usp=sharing
+[File weight](../checkpoint/model.pt)
